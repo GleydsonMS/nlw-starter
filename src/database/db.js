@@ -67,3 +67,13 @@ module.exports = db
 //   //   console.log("Registro deletado com sucesso!")
 //   // })
 // })
+
+// db.serialize(() => {
+//   db.run(`DELETE FROM places WHERE id = ?`, [4], function(err) {
+//     if (err) {
+//       return console.log(err)
+//     }
+
+//     console.log("Registro deletado com sucesso!")
+//   })
+// })
